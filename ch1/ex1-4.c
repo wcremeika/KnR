@@ -3,11 +3,6 @@
  */
 #include <stdio.h>
 
-/**
- * Program to convert a collection
- * of temperatures from celsius to fahrenheit
- */
-
 int main() {
   int fahr = 0, cels;
   int lower = 0, upper = 300, step = 20;
