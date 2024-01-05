@@ -1,4 +1,3 @@
-
 /**
  * Copy input to output replacing blanks of length 1
  * or more to a single blank
@@ -7,7 +6,8 @@
  */
 #include <stdio.h>
 
-int main(int argc, char const *argv[]) {
+int main(int argc, char const *argv[])
+{
   int c;
   int blankCount = 0;
 
@@ -18,7 +18,8 @@ int main(int argc, char const *argv[]) {
       if (blankCount == 1) {
         putchar(c);
       }
-    } else {
+    }
+    else {
       putchar(c);
       blankCount = 0;
     }

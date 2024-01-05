@@ -3,16 +3,19 @@
  */
 #include <stdio.h>
 
-int main(int argc, char const *argv[]) {
+int main(int argc, char const *argv[])
+{
   int c;
   int blankCount = 0, tabCount = 0, nlCount = 0;
 
   while ((c = getchar()) != EOF) {
     if (c == ' ') {
       blankCount++;
-    } else if (c == '\t') {
+    }
+    else if (c == '\t') {
       tabCount++;
-    } else if (c == '\n') {
+    }
+    else if (c == '\n') {
       nlCount++;
     }
   }
