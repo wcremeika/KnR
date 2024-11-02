@@ -4,7 +4,6 @@
  */
 #include <stdio.h>
 
-
 int main() {
   char c;
   int len = 0;
